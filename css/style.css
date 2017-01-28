@@ -8,5 +8,25 @@ html {
 }
 
 input[type="radio"] {
-  
+}
+
+#nav li {
+  display: inline;
+  list-style-type: none;
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+}
+
+#content {
+  width: 75%;
+  float: left;
+}
+#sidebar {
+  width: 25%;
+  float: left;
 }
