@@ -1,14 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,600');
+
 html {
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+p, li, label, input, .button {
+  font-family: 'Raleway', sans-serif;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
 
-input[type="radio"] {
+.button {
+	-moz-box-shadow: 2px 2px 2px -1px #86ccc9;
+	-webkit-box-shadow: 2px 2px 2px -1px #86ccc9;
+	box-shadow: 2px 2px 2px -1px #86ccc9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #66ded4), color-stop(1, #0da6ab));
+	background:-moz-linear-gradient(top, #66ded4 5%, #0da6ab 100%);
+	background:-webkit-linear-gradient(top, #66ded4 5%, #0da6ab 100%);
+	background:-o-linear-gradient(top, #66ded4 5%, #0da6ab 100%);
+	background:-ms-linear-gradient(top, #66ded4 5%, #0da6ab 100%);
+	background:linear-gradient(to bottom, #66ded4 5%, #0da6ab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66ded4', endColorstr='#0da6ab',GradientType=0);
+	background-color:#66ded4;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #22696e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:-1px -1px 2px #79a7b8;
+  width: 25%;
 }
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0da6ab), color-stop(1, #66ded4));
+	background:-moz-linear-gradient(top, #0da6ab 5%, #66ded4 100%);
+	background:-webkit-linear-gradient(top, #0da6ab 5%, #66ded4 100%);
+	background:-o-linear-gradient(top, #0da6ab 5%, #66ded4 100%);
+	background:-ms-linear-gradient(top, #0da6ab 5%, #66ded4 100%);
+	background:linear-gradient(to bottom, #0da6ab 5%, #66ded4 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0da6ab', endColorstr='#66ded4',GradientType=0);
+	background-color:#0da6ab;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
 
 #nav li {
   display: inline;
@@ -29,4 +76,20 @@ input[type="radio"] {
 #sidebar {
   width: 25%;
   float: left;
+}
+
+#contact-form {
+  background-color: sandybrown;
+  padding: 25px 40px;
+  text-align: center;
+}
+#contact-form h1 {
+  color: #0da6ab;
+}
+
+#contact-form form input,
+#contact-form form textarea{
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 7px;
 }
