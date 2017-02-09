@@ -1,24 +1,24 @@
 
 // example 1
-// var n = 0;
-//
-// console.log("Start the count.");
-//
-// while (n < 10) {
-//   console.log(n, "This is a counter.");
-//   n++;
-// }
-//
-// console.log('fin!');
+var n = 0;
+
+console.log("Start the count.");
+
+while (n < 10) {
+  console.log(n, "This is a counter.");
+  n++;
+}
+
+console.log('fin!');
 
 //exercise 1
 //Create a while loop that logs numbers 1 through 10 to the console
 // var n = 1;
 //
-while(n <= 10) {
-  console.log(n);
-  n++;
-}
+// while(n <= 10) {
+//   console.log(n);
+//   n++;
+// }
 //exercise 2
 //Create a while loop that logs every even number from 2 through 20 to the console
 // var n = 2;
@@ -106,18 +106,18 @@ while(n <= 10) {
 
 /******exercise 5*****/
 //count down from 15 by ones. For each number, log "even" or "odd" to the console and to a new div
-var c = 15;
-var targetFive = document.querySelector("#exercise-5");
-var outputFive = "<ul>";
-
-while(c > 0) {
-  console.log(c);
-  if(c % 2 === 0) {
-    outputFive += "<li> even </li>"
-  } else {
-    outputFive += "<li>odd</li>"
-  }
-  c--;
-}
-outputFive += "</ul>";
-targetFive.innerHTML = outputFive;
+// var c = 15;
+// var targetFive = document.querySelector("#exercise-5");
+// var outputFive = "<ul>";
+//
+// while(c > 0) {
+//   console.log(c);
+//   if(c % 2 === 0) {
+//     outputFive += "<li> even </li>"
+//   } else {
+//     outputFive += "<li>odd</li>"
+//   }
+//   c--;
+// }
+// outputFive += "</ul>";
+// targetFive.innerHTML = outputFive;
