@@ -2,7 +2,10 @@
 When users click on your photo on your profile page, a previously-hidden blurb should be revealed with a jQuery animation.
 *********/
 
-
+$('img').on('click', function() {
+  $('img').hide();
+  $('#myBlurb').show();
+})
 
 
 
