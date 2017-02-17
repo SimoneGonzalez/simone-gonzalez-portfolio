@@ -155,5 +155,10 @@ p, li, ul, label, input, .button {
 	color: white;
 	height: 100px;
 	width: 100px;
+}
 
+.highlighted {
+	background-color: #32CD32;
+	font-weight: bold;
+	color: white;
 }
